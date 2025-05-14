@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="m-4 md:m-5 bg-gray-200 ">
+  <div id="main" class="w-full h-full mx-auto">
+
+    <!-- Navbar -->
+    <div id="nav" class="flex flex-col md:flex-row item-center justify-between px-4 py-2 ">
+      <h1 class="text-3xl md:text-4xl font-semibold text-center text-gray-800">Directorate of Panchayati Raj</h1>
+      <div id="img" class="flex flex-wrap gap-2 py-4 justify-center item-center md:gap-3">
+        <img class="object-cover w-16 h-16 md:w-20 md:h-20" src="32-single-default.jpg" alt="">
+        <img class="object-cover w-16 h-16 md:w-20 md:h-20" src="CaptureG20.png" alt="">
+        <img class="object-cover w-16 h-16 md:w-20 md:h-20" src="Cover Story_29.10.2014_Table_Main_Image_1.jpg" alt="">
+      </div>
+    </div>
+
+    <!-- Subheading -->
+    <p class="text-gray-700 px-4 text-lg md:text-xl text-start md:text-left">15th Finance Commission | PMS</p>
+
+    <!-- Input Section -->
+    <div class="flex flex-col md:flex-row w-full">
+      <!-- Theme Name Input -->
+      <div class="md:w-1/2 p-3 md:pr-10">
+        <label class="block text-gray-700 mb-2 text-xl ">Theme Name</label>
+        <input type="text"
+          class="w-full p-2 bg-gray-200 border border-gray-400 rounded shadow-md focus:outline-none focus:ring-2 focus:ring-gray-300"
+          placeholder="Enter theme name">
+      </div>
+
+      <!-- Project Name Input -->
+      <div class="md:w-1/2 p-3 md:pl-10 ">
+        <label class="block text-gray-700 mb-2 text-xl">Project Name</label>
+        <input type="text"
+          class="w-full p-2 bg-gray-200 border-0 outline-none border-b border-gray-400 shadow-[0_4px_2px_-2px_rgba(0,0,0,0.2)] focus:outline-none"
+          placeholder="Enter theme name">
+      </div>
+    </div>
+
+
+    <!-- project Start Date-->
+    <div class="flex flex-col md:flex-row w-full">
+      <div class=" md:w-1/2 p-3 md:pr-10">
+        <label for="" class="block text-gray-700 mb-2 text-xl"> project Start Date</label>
+        <input type="date"
+          class="w-full p-2 bg-gray-200 border-0 outline-none border-b border-gray-400 shadow-[0_4px_2px_-2px_rgba(0,0,0,0.2)] focus:outline-none"
+          placeholder="select date">
+
+      </div>
+
+      <!--..............Date End............-->
+
+      <div class=" md:w-1/2 p-3 md:pl-10">
+        <label for="" class="block text-gray-700 mb-2 text-xl"> project End Date</label>
+        <input type="date"
+          class="w-full p-2 bg-gray-200 border-0 outline-none border-b border-gray-400 shadow-[0_4px_2px_-2px_rgba(0,0,0,0.2)] focus:outline-none"
+          placeholder="Enter theme name">
+
+      </div>
+    </div>
+
+    <div class="flex flex-col md:flex-row w-full">
+
+      <!---..........Allocated Fund-->
+      <div class=" md:w-1/2 p-3 md:pr-10">
+        <label for="" class="block text-gray-700 mb-2 text-xl">Allocated Funds</label>
+        <input type="text"
+          class="w-full p-2 bg-gray-200 border-0 outline-none border-b border-gray-400 shadow-[0_4px_2px_-2px_rgba(0,0,0,0.2)] focus:outline-none"
+          placeholder="select Text">
+
+      </div>
+
+      <!--..............Zilla............-->
+      <div class="md:w-1/2 p-3 md:pl-10">
+        <label class="block text-gray-700 mb-2 text-xl ">Zilla</label>
+        <input type="text"
+          class="w-full p-2 bg-gray-200 border border-gray-400 rounded shadow-md focus:outline-none focus:ring-2 focus:ring-gray-300"
+          placeholder="Enter district">
+      </div>
+    </div>
+
+    <div class="flex flex-col md:flex-row w-full">
+      <!-- .........Kshetra............ -->
+      <div class="md:w-1/2 p-3 md:pr-10">
+        <label class="block text-gray-700 mb-2 text-xl ">Kshetra</label>
+        <input type="text"
+          class="w-full p-2 bg-gray-200 border border-gray-400 rounded shadow-md focus:outline-none focus:ring-2 focus:ring-gray-300"
+          placeholder="Enter Block">
+      </div>
+
+      <!--,,,,,,,,,,,,,,,Gram Panchayat,,,,,,,,,,t -->
+      <div class="md:w-1/2 p-3 md:pl-10">
+        <label class="block text-gray-700 mb-2 text-xl ">Gram Panchayat</label>
+        <input type="text"
+          class="w-full p-2 bg-gray-200 border border-gray-400 rounded shadow-md focus:outline-none focus:ring-2 focus:ring-gray-300"
+          placeholder="Enter panchayat">
+      </div>
+
+    </div>
+
+    <div class="flex flex-col md:flex-row w-full">
+      <!-- Theme Name Input -->
+      <div class="md:w-1/2 p-3 md:pr-10">
+        <label class="block text-gray-700 mb-2 text-xl ">Ward</label>
+        <input type="text"
+          class="w-full p-2 bg-gray-200 border border-gray-400 rounded shadow-md focus:outline-none focus:ring-2 focus:ring-gray-300"
+          placeholder="Enter ward">
+      </div>
+
+      <!--.............Sub Component......... -->
+      <div class="md:w-1/2 p-3 md:pl-10 ">
+        <label class="block text-gray-700 mb-2 text-xl">Sub COmponent</label>
+        <input type="text"
+          class="w-full p-2 bg-gray-200 border-0 outline-none border-b border-gray-400 shadow-[0_4px_2px_-2px_rgba(0,0,0,0.2)] focus:outline-none"
+          placeholder="Enter text">
+      </div>
+    </div>
+
+    <div class="flex flex-row justify-end text-left gap-5 m-4 ">
+      <button class="block bg-blue-700 rounded-lg text-white px-7 py-1 hover:bg-blue-800 transition">Add</button>
+      <button class="block border border-gray-400 bg-gray-100  rounded-lg text-gray-600 px-7 py-1 hover:bg-gray-200 transition">Reset</button>
+    </div>
+
+  </div>
+
+
+
+
+
+
+  </div>
+</body>
+
+</html>
